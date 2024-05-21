@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* body background */
+body{
+  background: url('https://cdn.glitch.com/e4fa8393-6a2f-4f21-8abc-dbe8b105143b%2Fbackg.jpg?v=1619803437463') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.gallery{
+  font-family: 'Bebas Neue', cursive;
+  height: 400;
+  width: 600;
+}
+.text{
+  color:white;
+}
+p,h5{
+  color:white;
+  font-family: 'Bebas Neue', cursive;
+}
+h2,h1{
+  color:white;
+}
+.desc{
+  color:white
+}
+/* Navbar */
+.navbar {
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: gray;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+/* Promotional Video */
+video{
+  width: 100%;
+  height: auto;
+}
+/* Footer */
+footer{
+    background-color: #000000;
+    color: white;
+    padding-top: 2rem;
+  }
+  footer a{
+    color: #d5d5d5;
+  }
+  hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  

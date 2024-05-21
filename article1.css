@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* body background */
+body{
+  background: url('https://cdn.glitch.com/e4fa8393-6a2f-4f21-8abc-dbe8b105143b%2Fbackg.jpg?v=1619803437463') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* Navbar */
+.navbar {
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: gray;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+   /*Articles*/
+
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+  }
+  .article-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+  }
+  .article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+  }
+  .article-card{
+    background: black;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  .article-card:hover{
+    box-shadow: 0 4px 20px 0 rgb(34,68,123,0.2)
+      cursor: pointer;
+  }
+  .article-content{
+    padding: 2rem;
+    
+  }
+  .article-content .card-catergory{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight:600;
+    color:white;
+    display:block;
+    text-decoration:none;
+    
+  }
+  .article-content .card-title{
+    margin:1rem 0;
+    color:white;
+  }
+  .article-content .card-excerpt{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:white;
+    margin: 0;
+  }
+  @media screen and (min-width: 768px){
+    .site-container{
+      max-width: 608px;
+    }
+    .article-card{
+      display: grid;
+      grid-template-rows: 220px 1fr;
+      
+    }
+    
+  }
+  @media screen and (min-width: 1280px)
+  {
+    .site-container{
+      max-width:1156px;
+    }
+  }
+  
+  .articlecontent1{
+    background: black;
+    border-radius: 20px;
+    padding: 20px;
+  
+  }
+  /* Footer */
+footer{
+    background-color: #000000;
+    color: white;
+    padding-top: 2rem;
+  }
+  footer a{
+    color: #d5d5d5;
+  }
+  hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }

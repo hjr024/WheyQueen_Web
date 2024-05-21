@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* body background */
+body{
+  background: url('image/backg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+/* Navbar */
+.navbar {
+    background: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: gray;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+/* Promotional Video */
+video{
+  width: 100%;
+  height: auto;
+}
+/* BUTTONS */
+.bgbutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bgbutton1 {background-color: #FF5100;} /* Orange */
+.bgbutton2 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.bgbutton3 {background-color: #242526;} /* Black */
+
+
+.dividera {
+padding: 16px;
+}
+
+.dividerb {
+padding: 16px;
+background-image: url("image/backgrounddb.png");
+}
+/* HOME PRODUCTS */
+.card {
+box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 40%;
+}
+
+.card:hover {
+box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardtext {
+padding: 2px 16px;
+}
+
+
+.container {
+position: relative;
+width: 100%;
+max-width: 400px;
+}
+
+.container img {
+width: 100%;
+height: auto;
+}
+
+.container .btn {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #555;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+}
+
+.container .btn:hover {
+background-color: black;
+}
+/* HOME PRODUCTS MODAL */
+.modalcolumn {
+float: left;
+width: 50%;
+}
+/* Clear floats after the columns */
+.modalrow:after {
+content: "";
+display: table;
+clear: both;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+text-align: left-side;
+margin: 20px 20px 20px 20px;
+position: relative;
+}
+
+img.avatar {
+max-width: 85%;
+}
+
+.containera {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+padding-top: 60px;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #FF5100;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+color: white;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.modal-header {
+padding: 2px 16px;
+background-color: black;
+color: white;
+}
+
+/* Add Zoom Animation */
+.animate {
+-webkit-animation: animatezoom 0.6s;
+animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+from {-webkit-transform: scale(0)} 
+to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+from {transform: scale(0)} 
+to {transform: scale(1)}
+}
+
+.containera button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 20%;
+font-size: 18px;
+}
+/* Footer */
+footer{
+    background-color: #000000;
+    color: white;
+    padding-top: 2rem;
+  }
+  footer a{
+    color: #d5d5d5;
+  }
+  hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  
